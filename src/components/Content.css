@@ -1,0 +1,47 @@
+#main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box {
+    background-color: cornflowerblue;
+    margin: 10px;
+    padding: 30px 20px;
+    width: 500px;
+    flex-direction: column;
+    color: white;
+    border-radius: 10px;
+}
+.form-box h2{
+    font-size: 25px;
+    font-family: cursive;
+    text-align: center;
+}
+.form-box label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.form-box input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 3px solid rgb(191, 216, 191);
+    background: rgb(15, 2, 2);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.form-box input[type="button"] {
+    width: 100px;
+    background: crimson;
+    color: darkkhaki;
+    transition: all 0.4s;
+    border: none;
+}
+.form-box input[type="button"]:hover {
+    background: tomato;
+    color: wheat;
+}
